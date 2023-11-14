@@ -19,10 +19,10 @@ static const char col_white[]       = "#ffffff";
 
 static const char *colors[][3]      = {
 	/*					fg         bg          border   */
-	[SchemeNorm] =	 { col_gray3, col_gray1,  col_gray2 },
-	[SchemeSel]  =	 { col_white, col_gray2,  col_cyan },
-	[SchemeWarn] =	 { col_black, col_yellow, col_red },
-	[SchemeUrgent]=	 { col_white, col_red,    col_red },
+	[SchemeNorm] =	 { col_gray3,  col_gray1,  col_gray2 },
+	[SchemeSel]  =	 { col_white,  col_gray2,  col_cyan },
+	[SchemeWarn] =	 { col_yellow, col_gray1, col_red },
+	[SchemeUrgent]=	 { col_red,    col_gray1,    col_red },
 };
 
 /* tagging */
